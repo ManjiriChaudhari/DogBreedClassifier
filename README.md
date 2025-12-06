@@ -50,6 +50,12 @@ dog_1.jpg                 --> Predicted: German shepherd, German shepherd dog, G
 dog_2.jpg                 --> Predicted: German shepherd, German shepherd dog, German police dog, alsatian
 
 All images classified with all models!
+Result Summary - 
+Feature:  resnet | alexnet | vgg
+% Not-a-Dog Correct:  90.0% | 100.0% | 100.0%
+% Dogs Correct:  100.0% | 100.0% | 100.0%
+% Breeds Correct:  90.0% | 80.0% | 93.3%
+% Match Labels:  82.5% | 75.0% | 87.5%
 
 (Screenshots of Results are uploaded in Result_Screenshots Folder.)
 
