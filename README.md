@@ -25,8 +25,8 @@ python check_images.py --dir uploaded_images/ --arch vgg
 
 # Results
 VGG Model (Result_screenshots/ResultsForVGG.png)
-AlexNet Model
-ResNet Model
+AlexNet Model (Result_screenshots/ResultsForALEXNET.png)
+ResNet Model (Result_screenshots/ResultsForRESNET.png)
 
 # Analysis
 Based on classification of uploaded images:
