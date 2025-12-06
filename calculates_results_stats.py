@@ -4,7 +4,7 @@
 #                                                                             
 # PROGRAMMER: Manjiri Chaudhari
 # DATE CREATED: 02/12/2025                                 
-# REVISED DATE: 02/12/2025
+# REVISED DATE: 06/12/2025
 # PURPOSE: Create a function calculates_results_stats that calculates the 
 #          statistics of the results of the programrun using the classifier's model 
 #          architecture to classify the images. This function will use the 
@@ -140,4 +140,5 @@ def calculates_results_stats(results_dic):
     # Replace None with the results_stats_dic dictionary that you created with 
     # this function 
     return results_stats_dic
+
 
