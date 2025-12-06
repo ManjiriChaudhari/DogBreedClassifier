@@ -4,7 +4,7 @@
 #                                                                             
 # PROGRAMMER: Manjiri Chaudhari
 # DATE CREATED: 02/12/2025                             
-# REVISED DATE: 02/12/2025
+# REVISED DATE: 06/12/2025
 # PURPOSE: Create the function get_pet_labels that creates the pet labels from 
 #          the image's filename. This function inputs: 
 #           - The Image Folder as image_dir within get_pet_labels function and 
@@ -65,4 +65,5 @@ def get_pet_labels(image_dir):
     # Replace None with the results_dic dictionary that you created with this
     # function
     return results_dic
+
 
