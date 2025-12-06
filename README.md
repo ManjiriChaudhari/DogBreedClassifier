@@ -24,9 +24,40 @@ python test_classifier.py
 python check_images.py --dir uploaded_images/ --arch vgg
 
 # Results
-VGG Model (Result_screenshots/ResultsForVGG.png)
-AlexNet Model (Result_screenshots/ResultsForALEXNET.png)
-ResNet Model (Result_screenshots/ResultsForRESNET.png)
+
+# VGG Model
+==============================
+Results for CNN model: VGG
+==============================
+
+Cat_animal_01.jpg         --> Predicted: Egyptian cat, cat
+coffee_mug_01.jpg         --> Predicted: cup
+dog_1.jpg                 --> Predicted: German shepherd, German shepherd dog, German police dog, alsatian
+dog_2.jpg                 --> Predicted: German shepherd, German shepherd dog, German police dog, alsatian
+
+# AlexNet Model 
+==============================
+Results for CNN model: ALEXNET
+==============================
+
+Cat_animal_01.jpg         --> Predicted: tabby, tabby cat, cat
+coffee_mug_01.jpg         --> Predicted: eggnog
+dog_1.jpg                 --> Predicted: German shepherd, German shepherd dog, German police dog, alsatian
+dog_2.jpg                 --> Predicted: malinois
+
+# ResNet Model 
+==============================
+Results for CNN model: RESNET
+==============================
+
+Cat_animal_01.jpg         --> Predicted: Egyptian cat, cat
+coffee_mug_01.jpg         --> Predicted: coffee mug
+dog_1.jpg                 --> Predicted: German shepherd, German shepherd dog, German police dog, alsatian
+dog_2.jpg                 --> Predicted: German shepherd, German shepherd dog, German police dog, alsatian
+
+All images classified with all models!
+
+(Screenshots of Results are uploaded in Result_Screenshots Folder.)
 
 # Analysis
 Based on classification of uploaded images:
