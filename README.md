@@ -6,28 +6,6 @@ Objectives:
 1. Identify which pet images are of dogs and which are not.  
 2. Classify the breeds of dogs for the images that are identified as dogs.
 
-# Folder Structure
-DogBreedClassifier/
-│
-├── classifier.py                       # CNN classifier function
-├── check_images.py                     # Main script to classify images
-├── print_results.py                    # Prints summary of classification results
-├── print_functions_for_lab_checks.py   # Helper functions for testing/lab
-├── get_input_args.py                   # Parses command-line arguments
-├── get_pet_labels.py                   # Extracts labels from image filenames
-├── pet_images/                         # Default 40 pet images for testing
-├── uploaded_images/                    # Folder for user-uploaded test images
-│     ├── dog_1.jpg
-│     ├── dog_2.jpg
-│     ├── cat_animal_01.jpg
-│     └── coffee_mug_01.jpg
-├── results_screenshots/                # Screenshots of classification results
-│     ├── vgg_results.png
-│     ├── alexnet_results.png
-│     └── resnet_results.png
-├── imagenet1000_clsid_to_human.txt     # Mapping of ImageNet class IDs to human-readable labels
-├── README.md                           # This file
-
 ## Installation
 1. Make sure you have Python 3.10+ installed.
 
@@ -45,8 +23,8 @@ python test_classifier.py
 # Run check_images.py on uploaded images
 python check_images.py --dir uploaded_images/ --arch vgg
 
-# Sample Results
-VGG Model
+# Results
+VGG Model (Result_screenshots/ResultsForVGG.png)
 AlexNet Model
 ResNet Model
 
